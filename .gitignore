@@ -2,6 +2,12 @@
 /build
 /.sass-cache
 /.cache
-/bower_components
+source/bower_components/
 
-.DS_Store
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+*.swp
+*.lock
+*.DS_Store
