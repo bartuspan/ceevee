@@ -2,10 +2,10 @@
 # The humans responsible & technology colophon
 
 # TEAM
-    Developper: Meril PILON
-    Contact: job [at] pilon.fr
+    Developper: Méril PILON
+    Contact: job [at] mpilon.fr
     Location: London, UK
-    Website: http://www.merilpilon.fr - https://github.com/merildev/
+    Website: http://www.mpilon.fr - https://github.com/merildev/
 
 # THANKS
     Styleshout
