@@ -13,6 +13,7 @@ compass_config do |config|
   config.sass_dir = "stylesheets"
   config.images_dir = "images"
   config.javascripts_dir = "javascripts"
+  config.fonts_dir = "fonts"
 
   # You can select your preferred output style here (can be overridden via the command line):
   # output_style = :expanded or :nested or :compact or :compressed
@@ -87,13 +88,12 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+set :fonts_dir, 'fonts'
+
 # Build-specific configuration
 configure :build do
-  # For example, change the Compass output style for deployment
-  # activate :minify_css
-
-  # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_css
+  activate :minify_javascript
 
   # Enable cache buster
   # activate :asset_hash

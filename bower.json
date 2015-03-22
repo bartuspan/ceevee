@@ -4,6 +4,7 @@
   "private": "true",
   "dependencies": {
     "foundation": "zurb/bower-foundation",
-    "fontawesome": "~4.3.0"
+    "fontawesome": "~4.3.0",
+    "waypoints": "~3.1.1"
   }
 }
