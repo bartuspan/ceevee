@@ -2,7 +2,6 @@
 @import "foundation.scss";
 @import "font-awesome.scss";
 @import "fonts.css.scss";
-
 /* TOC:
    a. General Styles
    b. Header Styles
@@ -15,16 +14,10 @@
    i. Footer
 
 ===================================================================== */
-/* ------------------------------------------------------------------ */
-/* a. General Styles
-/* ------------------------------------------------------------------ */
 
 body {
   background: #0f0f0f;
 }
-/* ------------------------------------------------------------------ */
-/* b. Header Styles
-/* ------------------------------------------------------------------ */
 
 header {
   position: relative;
@@ -33,11 +26,9 @@ header {
   width: 100%;
   background: #161415 url(../images/header-background.jpg) no-repeat top center;
   background-size: cover !important;
-  -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
 }
-/* vertically center banner section */
 
 header:before {
   content: '';
@@ -86,7 +77,6 @@ header .banner-text hr {
   border-color: #2F2D2E;
   border-color: rgba(150, 150, 150, .1);
 }
-/* header social links */
 
 header .social {
   margin: 24px 0;
@@ -108,7 +98,6 @@ header .social li a {
 header .social li a:hover {
   color: #11ABB0;
 }
-/* scrolldown link */
 
 header .scrolldown a {
   position: absolute;
@@ -132,18 +121,6 @@ header .scrolldown a {
 header .scrolldown a:hover {
   color: #11ABB0;
 }
-/* primary navigation
---------------------------------------------------------------------- */
-
-#nav-wrap ul,
-#nav-wrap li,
-#nav-wrap a {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
-}
-/* nav-wrap */
 
 #nav-wrap {
   font: 12px 'opensans-bold', sans-serif;
@@ -169,8 +146,6 @@ header .scrolldown a:hover {
 ul#nav {
   min-height: 48px;
   width: auto;
-  /* center align the menu */
-  
   text-align: center;
 }
 
@@ -180,11 +155,9 @@ ul#nav li {
   height: 48px;
   display: inline-block;
 }
-/* Links */
 
 ul#nav li a {
-  /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-  
+  font-size: 12px;
   display: inline-block;
   padding: 8px 13px;
   line-height: 32px;
@@ -205,9 +178,6 @@ ul#nav li a:active {
 ul#nav li.current a {
   color: #F06000;
 }
-/* ------------------------------------------------------------------ */
-/* c. About Section
-/* ------------------------------------------------------------------ */
 
 #about {
   background: #2B2B2B;
@@ -271,9 +241,6 @@ ul#nav li.current a {
   margin-right: 15px;
   font-size: 20px;
 }
-/* ------------------------------------------------------------------ */
-/* d. Resume Section
-/* ------------------------------------------------------------------ */
 
 #resume {
   background: #fff;
