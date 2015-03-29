@@ -2,7 +2,7 @@
    "use strict";
 
    var sections = $("section");
-   var navigation_links = $("#nav-wrap a");
+   var navLinks = $("#nav-wrap a");
 
    $(document).foundation();
 
@@ -35,7 +35,6 @@
             nav.addClass('opaque').fadeIn('fast');
          }
       }
-
    });
 
    // Smooth Scrolling
@@ -54,17 +53,17 @@
 
    sections.waypoint({
       handler: function(event, direction) {
-         var active_section = $(this);
-         var active_link;
+         var activeSection = $(this.element);
+         var activeLink;
 
-         if (direction === "up") {
-            active_section = active_section.prev();
+         if (event === "up") {
+            activeSection = activeSection.prev();
          }
 
-         active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
+         activeLink = $('#nav-wrap a[href="#' + activeSection.attr("id") + '"]');
 
-         navigation_links.parent().removeClass("current");
-         active_link.parent().addClass("current");
+         navLinks.parent().removeClass("current");
+         activeLink.parent().addClass("current");
       },
       offset: '35%'
    });
