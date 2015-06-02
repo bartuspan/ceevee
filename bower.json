@@ -1,10 +1,17 @@
 {
-  "name": "Meril Pilon personal website",
+  "name": "Méril Pilon personal website",
   "version": "0.1.0",
   "private": "true",
   "dependencies": {
-    "foundation": "zurb/bower-foundation",
+    "foundation": "~5.5.2",
+    "open-sans": "~1.1.0",
     "fontawesome": "~4.3.0",
+    "jquery": "~2.1.4",
+    "jquery.cookie": "~1.4.1",
+    "fastclick": "~1.0.6",
+    "modernizr": "~2.8.3"
+  },
+  "devDependencies": {
     "waypoints": "~3.1.1"
   }
 }
