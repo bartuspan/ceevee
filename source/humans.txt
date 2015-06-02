@@ -8,7 +8,8 @@
     Website: http://www.mpilon.fr - https://github.com/merildev/
 
 # THANKS
-    Styleshout
+    Styleshout  - http://www.styleshout.com/
+    François F. - https://www.flickr.com/photos/bananaboy24/
 
 # TECHNOLOGY COLOPHON
     Standards: HTML5, CSS3
