@@ -7,7 +7,6 @@ Features:
 * Responsive
 * Fontawesome icon fonts
 * @font-face custom web fonts
-* Smooth scrolling effect
 * Cross browser compatible
 
 Visit the online demo at [mpilon.fr](http://www.mpilon.fr)
