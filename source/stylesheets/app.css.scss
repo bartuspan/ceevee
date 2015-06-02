@@ -180,33 +180,33 @@ ul#nav li.current a {
 /* About END */
 
 /* Resume START */
-#resume {
+.main_content {
   background: #fff;
 }
-#resume a,
-#resume a:visited {
+.main_content a,
+.main_content a:visited {
   color: #11ABB0;
 }
-#resume a:hover,
-#resume a:focus {
+.main_content a:hover,
+.main_content a:focus {
   color: #313131;
 }
-#resume h1 {
+.main_content h1 {
   font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#resume h1 span {
+.main_content h1 span {
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
 }
-#resume h3 {
+.main_content h3 {
   font: 25px/30px 'opensans-bold', sans-serif;
 }
-#resume .header-col {
+.main_content .header-col {
   padding-top: 9px;
 }
-#resume .main-col {
+.main_content .main-col {
   padding-right: 10%;
 }
 .education,
@@ -215,17 +215,17 @@ ul#nav li.current a {
   padding-bottom: 24px;
   border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+.main_content .info {
   font: 16px/24px 'librebaskerville-italic', serif;
   color: #6E7881;
   margin-bottom: 18px;
   margin-top: 9px;
 }
-#resume .info span {
+.main_content .info span {
   margin-right: 5px;
   margin-left: 5px;
 }
-#resume .date {
+.main_content .date {
   font: 15px/24px 'opensans-regular', sans-serif;
   margin-top: 6px;
 }
@@ -279,7 +279,7 @@ ul#nav li.current a {
 }
 /* Resume END */
 
-/* Testimonials START */
+/* Testimonials START
 #testimonials {
   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
   background-size: cover !important;
@@ -349,7 +349,7 @@ ul#nav li.current a {
 /* Testimonials END */
 
 /* Contact START */
-#contact {
+#education {
   background: #191919;
   color: #636363;
 }
@@ -361,17 +361,17 @@ ul#nav li.current a {
 #contact a:focus {
   color: $a-hover-color;
 }
-#contact h1 {
+#education h1 {
   font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: $text-lighter-color;
 }
-#contact h1 span {
+#education h1 span {
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
 }
-#contact h1 i {
+#education h1 i {
   position: relative;
   top: -10px;
 }
