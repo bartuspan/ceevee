@@ -11,3 +11,4 @@ source/bower_components/
 *.swp
 *.lock
 *.DS_Store
+.fuse_hidden*
