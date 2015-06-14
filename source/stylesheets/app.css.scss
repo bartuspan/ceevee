@@ -1,12 +1,15 @@
 @import "settings";
+@import "normalize.scss";
 @import "foundation.scss";
 @import "font-awesome.scss";
 @import "fonts.css.scss";
+
 $body-color: #0f0f0f;
 $bar-color: #313131;
 $a-hover-color: #11ABB0;
 $text-gray-color: #525252;
 $text-lighter-color: #EBEEEE;
+
 /* General START */
 
 body {
