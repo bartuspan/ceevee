@@ -1,6 +1,6 @@
 ## Online resume
 
-Get a clean and modern website for your online resume. The design is a rewritten version of [Styleshout](http://www.styleshout.com/free-templates/ceevee/) using Zurb Foundation
+Get a clean and [modern website](https://merildev.github.io/ceevee/) for your online resume. The design is a rewritten version of [Styleshout](http://www.styleshout.com/free-templates/ceevee/) using Zurb Foundation
 
 Features:
 * HTML5 and CSS3 (based on Zurb Foundation)
