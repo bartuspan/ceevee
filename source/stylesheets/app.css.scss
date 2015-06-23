@@ -16,7 +16,7 @@ body {
     background-color: $body-color;
 }
 
-p {
+p, section li {
     font-family: 'opensans-regular', sans-serif;
     font-weight: normal;
     line-height: 30px;
@@ -201,13 +201,13 @@ ul#nav li.current a {
     color: #313131;
 }
 
-.main_content h1 {
+.main_content h2 {
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.main_content h1 span {
+.main_content h2 span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
 }
@@ -324,19 +324,19 @@ ul#nav li.current a {
     color: $a-hover-color;
 }
 
-#education h1 {
+#education h2 {
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: $text-lighter-color;
 }
 
-#education h1 span {
+#education h2 span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
 }
 
-#education h1 i {
+#education h2 i {
     position: relative;
     top: -10px;
 }
