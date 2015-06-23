@@ -8,7 +8,6 @@ Clean the app.css.scss file, refactor the rules.
 Clean
 
 ### JS
-Fix bug when scrolling
 
 ### Readme
 Improve existing
