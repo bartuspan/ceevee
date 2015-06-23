@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    Developper: Méril PILON
+    Contact: job [at] mpilon.fr
+    Location: London, UK
+    Website: http://www.mpilon.fr - https://github.com/merildev/
+
+# THANKS
+    Styleshout  - http://www.styleshout.com/
+    François F. - https://www.flickr.com/photos/bananaboy24/
+
+# TECHNOLOGY COLOPHON
+    Standards: HTML5, CSS3
+    Components: Modernizr, jQuery, Foundation
+    Software: Sublime Text, Git, The Gimp, Middleman, SASS
